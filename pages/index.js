@@ -7,6 +7,16 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className='h-[100vh] bg-main flex'>
+      <p className='absolute p-4 m-4 bg-gray-400 rounded-full animate-bounce'>
+        Create by{' '}
+        <a
+          rel='stylesheet'
+          href='https://github.com/ByteBanana'
+          className='text-yellow-200 underline'
+        >
+          @ByteBanana
+        </a>
+      </p>
       <Card>
         <Image
           layout='fixed'
