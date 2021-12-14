@@ -26,7 +26,7 @@ export default function Home() {
           className='rounded-lg shadow-2xl'
         />
         <div className='flex-1'>
-          <h3 className='py-6 text-2xl text-white font-outfit'>
+          <h3 className='py-6 text-lg text-white font-outfit'>
             Equilibrium #3429
           </h3>
           <p className='text-lg text-soft-blue'>
@@ -34,13 +34,13 @@ export default function Home() {
           </p>
         </div>
         <div className='flex justify-between py-4'>
-          <div className='flex items-center space-x-1'>
+          <div className='flex items-center'>
             <Image src={Ethereum} layout='fixed' />{' '}
-            <p className='text-cyan'>0.041 ETH</p>
+            <p className='ml-1 tracking-wide text-cyan'>0.041 ETH</p>
           </div>
           <div className='flex items-center space-x-1'>
             <Image src={Clock} layout='fixed' />
-            <p className='text-soft-blue'>3 days left</p>
+            <p className='tracking-wide text-soft-blue'>3 days left</p>
           </div>
         </div>
         <div className='flex items-center py-4 space-x-2 border-t border-line'>
