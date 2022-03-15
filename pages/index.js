@@ -11,7 +11,7 @@ export default function Home() {
         Create by{' '}
         <a
           rel='stylesheet'
-          href='https://github.com/ByteBanana'
+          href='https://github.com/BytesBanana'
           className='text-yellow-200 underline'
         >
           @ByteBanana
